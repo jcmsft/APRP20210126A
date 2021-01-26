@@ -1,0 +1,80 @@
+{
+ "properties": {
+  "displayName": "GitHub_Test_Policy _20200126",
+  "policyType": "Custom",
+  "metadata": {
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/1baf6c39-7b0f-4d68-9988-b80963be93d0"
+   },
+   "createdBy": "5dad7351-96c9-4e40-9455-656737869943",
+   "createdOn": "2021-01-26T21:03:39.644098Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Vulnerability assessment should be enabled on your Synapse workspaces_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0049a6b3-a662-4f3e-8635-39cf44ace45a",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Cognitive Services accounts should restrict network access_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/037eea7a-bd0a-46c5-9a66-03aea78705d3",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit Linux machines that have the specified applications installed_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0447bc18-e2f7-4c0d-aa20-bff034275be1",
+    "parameters": {
+     "ApplicationName": {
+      "value": "test"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Azure Cosmos DB allowed locations_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0473574d-2d43-4217-aefe-941fcdf7e684",
+    "parameters": {
+     "listOfAllowedLocations": {
+      "value": [
+       "unitedstates"
+      ]
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "SQL managed instances should use customer-managed keys to encrypt data at rest_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/048248b0-55cd-46da-b1ff-39efd52db260",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "[Preview]: Network traffic data collection agent should be installed on Linux virtual machines_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/04c4380f-3fae-46e8-96c9-30193528f602",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/1baf6c39-7b0f-4d68-9988-b80963be93d0/providers/Microsoft.Authorization/policySetDefinitions/0cfc5545cf7646a4b8c30cb2",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "0cfc5545cf7646a4b8c30cb2"
+}
